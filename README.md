@@ -18,7 +18,7 @@ A newly acquired clinic exports its lab results via a legacy CSV format. You mus
 ---
 
 ## 📥 Input Data
-Use the provided file: `lab_test_full.csv`.
+Use the provided file: `lab_data_tst.csv`.
 
 ### The Data Challenges:
 * **Date Normalization:** Dates in the source are inconsistent (e.g., `YYYYMMDD`, `MM/DD/YYYY`, `DD/MM/YYYY`, and `YYYY-MM-DD`). Your integration must normalize these to the HL7 standard: `YYYYMMDDHHMM`.
